@@ -4,13 +4,13 @@ public class FirstClass {
         String playerName = "Tim";
         int calculateScore = calculateHighScorePosition(1500);
         displayHighScorePosition(playerName, calculateScore);
-        calculateScore = calculateHighScorePosition(1000);
+        calculateScore = calculateHighScorePosition(999);
         displayHighScorePosition(playerName, calculateScore);
-        calculateScore = calculateHighScorePosition(500);
+        calculateScore = calculateHighScorePosition(499);
         displayHighScorePosition(playerName, calculateScore);
-        calculateScore = calculateHighScorePosition(100);
+        calculateScore = calculateHighScorePosition(99);
         displayHighScorePosition(playerName, calculateScore);
-        calculateScore = calculateHighScorePosition(25);
+        calculateScore = calculateHighScorePosition(-25);
         displayHighScorePosition(playerName, calculateScore);
 
     }
