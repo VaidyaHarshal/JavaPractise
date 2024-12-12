@@ -4,7 +4,7 @@ public class HeightToCentimeters {
         System.out.println("68in = " + convertToCentimeters( 68) + "cm");
     }
     public static double convertToCentimeters(int inches) {
-        return (double) (inches * 2.54);
+        return (inches * 2.54);
     }
 
     public static double convertToCentimeters(int feet, int inches) {
